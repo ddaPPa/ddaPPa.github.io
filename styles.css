@@ -1,0 +1,64 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    
+}
+.box{
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Orbitron',sans-serif;
+    
+}
+
+.row{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.minus{
+    background-color: orange;
+}
+.times{
+    background-color: orange;
+}
+.divide{
+    background-color: orange;
+}
+
+
+.plus{
+    background-color: orange;
+}
+.equal{
+    background-color: cyan;
+}
+.clear
+{
+    background-color: magenta;
+}
+
+
+button {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    border-radius: 0;
+    font-family: 'Orbitron',sans-serif;
+}
+
+.container button:active {
+    transform: scale(0.95); /* 클릭 시 크기를 약간 줄임 */
+    box-shadow: 0 2px #666;
+}
